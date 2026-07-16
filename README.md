@@ -1,5 +1,5 @@
 # @omkarwarik1204/stark
-
+![GitHub Repo Card](https://githubcard.com/omkarwarik02/stark.git.svg)
 A minimal collection of polished, animated React components — built with TypeScript and Tailwind CSS, shipped with full type declarations and zero runtime dependencies beyond React.
 
 Currently includes:
