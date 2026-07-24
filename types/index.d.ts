@@ -49,3 +49,9 @@ interface FileDownloadButtonProps {
     className?:string;
 }
 export declare function FileDownloadButton(props:FileDownloadButtonProps):ReactNode
+
+interface LikeButtonProps {
+    initialCount : number;
+    initialIsLiked : boolean;
+}
+export declare function LikeButton(props:LikeButtonProps):ReactNode

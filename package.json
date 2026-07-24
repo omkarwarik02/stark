@@ -1,6 +1,6 @@
 {
   "name": "@omkarwarik1204/stark",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "Minimalist React component library",
   "type": "module",
   "files": [
@@ -45,5 +45,8 @@
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.59.2",
     "vite": "^7.3.5"
+  },
+  "dependencies": {
+    "lucide-react": "^1.26.0"
   }
 }
