@@ -3,6 +3,8 @@ import DynamicIslandNavbar from './DynamicIslandNavbar/DynamicIslandNavbar'
 import FileDownloadButton from './FileDownloadButton/FileDownloadButton'
 import { FAQAccordion } from './index'
 import LikeButton from './LikeButton/LikeButton'
+import PasswordStrengthCheck from './PasswordStrengthCheck/PasswordStrengthCheck'
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
       />
        <LikeButton initialCount={245} initialIsLiked={false} />
        <LikeButton initialCount={0} initialIsLiked={true} />
+       <PasswordStrengthCheck/>
     </div>
   )
 }
