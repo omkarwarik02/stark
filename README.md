@@ -4,7 +4,7 @@
 
 <h1 align="center">@omkarwarik1204/stark</h1>
 
-<p align="center"><b><a href="https://stark-projects.vercel.app">🔗 Live Showcase</a></b></p>
+<p align="center"><b><a href="https://stark-ui-projects.vercel.app/">🔗 Live Showcase</a></b></p>
 
 [![npm version](https://img.shields.io/npm/v/@omkarwarik1204/stark?color=black&label=npm)](https://www.npmjs.com/package/@omkarwarik1204/stark)
 [![npm downloads](https://img.shields.io/npm/dt/@omkarwarik1204/stark?color=black)](https://www.npmjs.com/package/@omkarwarik1204/stark)
