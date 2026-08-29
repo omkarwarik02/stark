@@ -4,3 +4,4 @@ export {default as DynamicIslandNavbar} from './DynamicIslandNavbar/DynamicIslan
 export {default as DropdownMenu} from './DropdownMenu/DropdownMenu'
 export {default as FileDownloadButton} from './FileDownloadButton/FileDownloadButton'
 export {default as LikeButton} from './LikeButton/LikeButton'
+export {default as PasswordStrengthCheck} from './PasswordStrengthCheck/PasswordStrengthCheck'
