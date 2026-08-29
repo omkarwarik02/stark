@@ -1,6 +1,18 @@
-# @omkarwarik1204/stark
+<p align="center">
+  <img src="./public/images/logo.png" alt="stark logo" width="80" />
+</p>
+
+<h1 align="center">@omkarwarik1204/stark</h1>
+
+<p align="center"><b><a href="https://stark-ui-projects.vercel.app/">🔗 Live Showcase</a></b></p>
+
+[![npm version](https://img.shields.io/npm/v/@omkarwarik1204/stark?color=black&label=npm)](https://www.npmjs.com/package/@omkarwarik1204/stark)
+[![npm downloads](https://img.shields.io/npm/dt/@omkarwarik1204/stark?color=black)](https://www.npmjs.com/package/@omkarwarik1204/stark)
+[![license](https://img.shields.io/badge/license-MIT-black)](https://github.com/omkarwarik02/stark/blob/main/LICENSE)
 
 A minimal collection of polished, animated React components — built with TypeScript and Tailwind CSS, shipped with full type declarations and zero runtime dependencies beyond React.
+
+![stark showcase](./public/images/webstark.jpeg)
 
 Currently includes:
 
@@ -74,7 +86,7 @@ A fixed, centered navbar pill that smoothly stretches outward on hover.
 ### Props
 
 | Prop        | Type                                | Default        | Description                                                                                           |
-| ----------- | ----------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------- |
+| ----------- | ------------------------------------ | -------------- | ------------------------------------------------------------------------------------------------------ |
 | `brand`     | `string`                            | `"Brand"`      | Text shown on the left of the pill (your name/logo).                                                  |
 | `links`     | `{ label: string; href: string }[]` | 4 sample links | The center navigation links.                                                                          |
 | `ctaHref`   | `string`                            | `"#"`          | URL for the right-side action item.                                                                   |
@@ -117,7 +129,7 @@ An accordion where one item is open at a time, with a smooth height animation an
 ### Props
 
 | Prop        | Type                                              | Default        | Description                              |
-| ----------- | ------------------------------------------------- | -------------- | ---------------------------------------- |
+| ----------- | -------------------------------------------------- | -------------- | ----------------------------------------- |
 | `items`     | `{ question: string; answer: React.ReactNode }[]` | 3 sample items | The list of question/answer pairs.       |
 | `className` | `string`                                          | `""`           | Extra classes merged onto the container. |
 
@@ -154,13 +166,13 @@ A customizable dropdown with keyboard support, click-outside detection, and smoo
 ### Props
 
 | Prop           | Type                                         | Default              | Description                                |
-| -------------- | -------------------------------------------- | -------------------- | ------------------------------------------ |
+| -------------- | ---------------------------------------------- | --------------------- | -------------------------------------------- |
 | `label`        | `string`                                     | Required             | Label text displayed above the dropdown.   |
 | `options`      | `{ value: string\|number; label: string }[]` | 3 sample options     | Array of dropdown options.                 |
 | `value`        | `string \| number \| null`                   | `null`               | Initially selected value.                  |
 | `placeholder`  | `string`                                     | `"Select an option"` | Placeholder text when nothing is selected. |
-| `handleChange` | `(value: string \| number) => void`          | Optional             | Callback fired when an option is selected. |
-| `className`    | `string`                                     | `""`                 | Extra classes for custom styling.          |
+| `handleChange` | `(value: string \| number) => void`          | Optional              | Callback fired when an option is selected. |
+| `className`    | `string`                                     | `""`                  | Extra classes for custom styling.          |
 
 ### Example with custom styling
 
@@ -194,11 +206,11 @@ A minimal button component for file downloads with customizable labels and styli
 ### Props
 
 | Prop        | Type     | Default           | Description                                  |
-| ----------- | -------- | ----------------- | -------------------------------------------- |
+| ----------- | -------- | ------------------ | --------------------------------------------- |
 | `href`      | `string` | Required          | Path or URL to the file being downloaded.    |
 | `download`  | `string` | Required          | Filename that will be used when downloading. |
 | `label`     | `string` | `"Download File"` | Text displayed on the button.                |
-| `className` | `string` | `""`              | Extra classes for custom styling.            |
+| `className` | `string` | `""`               | Extra classes for custom styling.            |
 
 ### Example with custom styling
 
@@ -236,7 +248,7 @@ An animated like button with a filled/outline heart icon and live count tracking
 ### Props
 
 | Prop             | Type      | Default  | Description                                                  |
-| ---------------- | --------- | -------- | ------------------------------------------------------------ |
+| ----------------- | --------- | -------- | -------------------------------------------------------------- |
 | `initialCount`   | `number`  | Required | The starting like count (e.g. fetched from your backend).    |
 | `initialIsLiked` | `boolean` | Required | Whether the item is already liked when the component mounts. |
 
