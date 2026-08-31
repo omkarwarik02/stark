@@ -1,7 +1,7 @@
 import DropdownMenu from './DropdownMenu/DropdownMenu'
 import DynamicIslandNavbar from './DynamicIslandNavbar/DynamicIslandNavbar'
 import FileDownloadButton from './FileDownloadButton/FileDownloadButton'
-import { FAQAccordion } from './index'
+import { FAQAccordion, LogoTooltip } from './index'
 import LikeButton from './LikeButton/LikeButton'
 import EmailCheck from './EmailCheck/EmailCheck'
 function App() {
@@ -13,6 +13,7 @@ function App() {
       <FileDownloadButton href="/test.pdf" download="test.pdf" />
       <LikeButton initialCount={0} initialIsLiked={false} />
       <EmailCheck />
+      <LogoTooltip logo={<img src="/images/logo.png" alt='logo image'/>} label="Logo" size={110} />
     </div>
   )
 }

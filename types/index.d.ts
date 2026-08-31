@@ -55,3 +55,11 @@ interface LikeButtonProps {
     initialIsLiked : boolean;
 }
 export declare function LikeButton(props:LikeButtonProps):ReactNode
+
+interface LogoTooltipProps {
+  logo: ReactNode;
+  label: string;
+  size?: number;
+  className?: string;
+}
+export declare function LogoTooltip(props:LogoTooltipProps):ReactNode

@@ -6,3 +6,4 @@ export {default as FileDownloadButton} from './FileDownloadButton/FileDownloadBu
 export {default as LikeButton} from './LikeButton/LikeButton'
 export {default as PasswordStrengthCheck} from './PasswordStrengthCheck/PasswordStrengthCheck'
 export { default as EmailCheck } from './EmailCheck/EmailCheck'
+export {default as LogoTooltip} from './LogoTooltip/LogoTooltip'
